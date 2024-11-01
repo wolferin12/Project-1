@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class SetOperations
 {
+    //Cslculates the intersection of two lists
     public static ArrayList<Integer> intersection (int[]list1, int[]list2){
         ArrayList<Integer>outcome= new ArrayList<>();
         int i=0;
@@ -20,6 +21,7 @@ public class SetOperations
         }
         return outcome;
     }
+    //Calculates the unions of the array lists
     public static void getUnion(int [] list1, int [] list2, int v, int x){
         int i=0;
         int b=0;
@@ -41,6 +43,7 @@ public class SetOperations
             System.out.print(list2[b++]+", ");
         }
     }
+    //Calculates the complement of the array lists
     static void Complement (int [] list1, int [] list2, int z, int q ){
        int y=0;
        int w=0;
